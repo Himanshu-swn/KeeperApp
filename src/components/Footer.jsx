@@ -5,7 +5,7 @@ const date = new Date();
 function Footer() {
   return (
     <footer>
-      <p>Copyright © {date.getFullYear()}</p>
+      <p> © {date.getFullYear()} Himanshu Sangwan</p>
     </footer>
   );
 }

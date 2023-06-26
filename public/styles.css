@@ -7,12 +7,14 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background: #F4EEFF;
   padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
 }
 
 header {
   background-color: #f5ba13;
+  background-color: #424874;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -20,7 +22,7 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: 'Belanosima', sans-serif;
   font-weight: 200;
 }
 
@@ -33,15 +35,15 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: #5b6283;
 }
 .note {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
-  margin: 16px;
+  width: 310px;
+  margin: 18px;
   float: left;
 }
 .note h1 {
@@ -59,15 +61,19 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #798bdc;
   border: none;
-  width: 36px;
-  height: 36px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   outline: none;
+  background: white;
+  box-shadow: none;
 }
 
-form {
+
+form.create-note {
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
@@ -76,8 +82,8 @@ form {
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -86,17 +92,21 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
-form button {
+form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background: #798bdc;
   color: #fff;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+form.create-note button:hover{
+  background: #DCD6F7;  
 }
